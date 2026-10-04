@@ -1,0 +1,11 @@
+num1 = int(input('Enter number one: '))
+num2 = int(input('Enter number two: '))
+
+print(num1==num2)
+print(num1!=num2)
+print(num1<num2)
+print(num1>num2)
+print(num1<=num2)
+print(num1>=num2)
+print("Thembelihle"=="Thembelihle")
+print("Percy"=="Thembelihle")
