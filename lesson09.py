@@ -1,11 +1,10 @@
-# A list holds many values inone variable, in order. You write it with square brackets and commas.
-# Positions start at 0, just like string and -1 is the last ites
-# List can be changed .appends(x) adds to the end, .remove(x) deletes a value, and len(x) is for size
+# List tools and slicing
 
-fruits = ['apple', 'banana', 'cherry']
+nums = [3,2,1,7,9,9]
 
-print(fruits[0]) #It will print the first element
-print(fruits[-1]) #It will print the last element
-fruits.append('Mango') #It will add a mango to the list
-fruits.remove('banana') #It will remove banana from the list
-print(len(fruits))
+nums.sort()
+print(max(nums))
+print(sum(nums))
+print(f'The average is {sum(nums)/len(nums)}')
+
+print(nums[1:4])
